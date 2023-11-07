@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MY Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mediaQueries.css">
+    <link rel="stylesheet" href="CSS/My-Own-CSS.css">
+
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="Image/arrow.png" alt="arrow"></button>
+    <!-- Nav-Bar -->
+    <div id="navBar">
+        <h1>Ali Ahmad</h1>
+        <div style="display:flex;">
+            <h3><a href="#about">About</a></h3>
+            <h3><a href="#experience">Experience</a></h3>
+            <h3><a href="#projects">Projects</a></h3>
+            <h3><a href="#contact">Contact</a></h3>
+        </div>
+    </div>
+
+    <!-- Mobile Nav-Bar -->
+    <div id="smNav">
+        <div>
+            <h1>Ali Ahmad</h1>
+        </div>
+        <div class="menu">
+            <div class="icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-list">
+                <li><a onclick="toggleMenu()" href="#about">About</a></li>
+                <li><a onclick="toggleMenu()" href="#experience">Experience</a></li>
+                <li><a onclick="toggleMenu()" href="#projects">Projects</a></li>
+                <li><a onclick="toggleMenu()" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Profile Section -->
+    <div id="profile">
+        <img src="Image/profile.png" alt="profile.png">
+        <div class="pName">
+            <p>Hello, I'm</p>
+            <h1>Ali Ahmad</h1>
+            <h3>Full Stack Web Developer</h3>
+            <div class="btnContainer">
+                <button type="button" class="btnCV" onclick="window.open('./Assets/Ali Ahmad.pdf')">Download CV</button>
+                &nbsp;&nbsp;
+                <button class="btnContact" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="linkIcon">
+                <a class="link" onclick="window.open('https:/pk.linkedin.com/')" href="#"><i
+                        class="fa-brands fa-linkedin fa-xl"></i></a>
+                &nbsp;
+                <a class="link" onclick="window.open('https:/github.com/HajiMushtaq-Developer')" href="#"><i
+                        class="fa-brands fa-github fa-xl"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+    <div id="aboutContainer">
+        <div class="aboutHeader">
+            <p>Get To Know More</p>
+            <h1>About Me</h1>
+        </div>
+        <div class="textCard">
+            <div class="card">
+                <i class="fa-solid fa-award fa-2xl"></i>
+                <h2>Certification</h2>
+                <p>in</p>
+                <p>Frontend Web Development</p>
+                <p>from</p>
+                <p class="a" onclick="window.open('https:/www.mindluster.com/')">Mind Luster Online</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-award fa-2xl"></i>
+                <h2>Certification</h2>
+                <p>in</p>
+                <p>FulStack Web Development</p>
+                <p>from</p>
+                <p class="a" onclick="window.open('https:/www.evslearning.com/Home')">EVS IT Institute</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-award fa-2xl"></i>
+                <h2>Certification</h2>
+                <p>in</p>
+                <p>MERNStack Web Development</p>
+                <p>from</p>
+                <p class="a" onclick="window.open('https:/www.pftpedu.org/')">PFTP IT Trainings</p>
+            </div>
+            <div class="eduCard">
+                <i class="fa-solid fa-user-group fa-2xl"></i>
+                <h2>Education</h2>
+                <p>Matriculation</p>
+                <p>Lahore Board 2019-2021</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div id="experience">
+        <div>
+            <p>Explore My</p>
+            <h1>Experience</h1>
+        </div>
+        <div class="cardContainer">
+
+            <!-- Experience Card-1 -->
+            <div class="experienceCard">
+                <h2>Frontend Development</h2>
+                <div class="skillContainer">
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left;margin-top: -25px; line-height: 0.5rem;">
+                            <h3>HTML-5</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left;margin-top: -25px; line-height: 0.5rem;">
+                            <h3>CSS-3</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left; margin-top: -25px; line-height: 0.5rem;">
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left;margin-top: -25px; line-height: 0.5rem;">
+                            <h3>BootStrap</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left;margin-top: -25px; line-height: 0.5rem;">
+                            <h3>ReactJS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Experience Card-2 -->
+            <div class="experienceCard">
+                <h2>Backend Development</h2>
+                <div class="skillContainer">
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left;margin-top: -25px; line-height: 0.5rem;">
+                            <h3>JavaScript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left;margin-top: -25px; line-height: 0.5rem;">
+                            <h3>NodeJS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left; margin-top: -25px; line-height: 0.5rem;">
+                            <h3>ExpressJS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left; margin-top: -25px; line-height: 0.5rem;">
+                            <h3>MongoDB</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <i class="fa-solid fa-circle-check fa-xl"></i>
+                        <div style="text-align: left; margin-top: -25px; line-height: 0.5rem;">
+                            <h3>GitHub</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+        <div>
+            <p>Browse My Recent</p>
+            <h1>Projects</h1>
+        </div>
+        <div class="projectContainer">
+
+            <div class="projectCard">
+                <img src="Image/SihnUp.png" alt="SignUp">
+                <h2>SignUp & Login</h2>
+                <div class="btn">
+                    <button type="button"
+                        onclick="window.open('https:/github.com/HajiMushtaq-Developer/loginProject.git')"
+                        class="btnGit">GitHub</button>
+                    <button type="button" onclick="window.open(' https:/hajimushtaq-developer.github.io/loginProject/')"
+                        class="btnDemo">Live Demo</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div>
+            <p>Get in Touch</p>
+            <h1>Contact Me</h1>
+        </div>
+        <div class="mailContainer">
+            <div class="Ids">
+                <h4 onclick="window.open('mailto:alilatakhun2003@gmail.com')"><i
+                        class="fa-solid fa-envelope fa-2xl"></i>&emsp;<strong
+                        class="emailId">alilatakhun2003@gmail.com</strong></h4>
+
+                <h4 onclick="window.open('https:/pk.linkedin.com/')"><i
+                        class="fa-brands fa-linkedin fa-2xl"></i>&emsp;<strong class="linkedId">LinkedIn</strong></h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>Copyright <strong>&copy;</strong> 2023 Ali Ahmad. All Rights Reserved.</p>
+    </div>
+
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

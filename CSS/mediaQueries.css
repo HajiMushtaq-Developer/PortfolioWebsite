@@ -1,0 +1,297 @@
+@media screen and (max-width: 1510px) {
+  body {
+    padding: 0px 260px;
+    padding-top: 70px;
+    transition: all 0.3s ease-in-out;
+  }
+  #navBar {
+    padding: 0 80px;
+  }
+  #navBar h1 {
+    font-size: 1.6rem;
+    transition: all 0.3s ease-in-out;
+  }
+  #navBar a {
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  #profile img {
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+  }
+  #profile {
+    gap: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+  #experienceCard {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  .projectContainer {
+    display: flex;
+    flex-flow: row wrap;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media screen and (max-width: 1370px) {
+  #navBar {
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #navBar {
+    display: none;
+  }
+  #smNav {
+    display: flex;
+  }
+  #profile {
+    flex-flow: column nowrap;
+    padding-top: 80px;
+  }
+  #profile img {
+    margin: auto;
+    width: 300px;
+  }
+}
+@media (max-width: 1042px) {
+  .Ids {
+    padding: 9px 9px;
+    gap: 0px;
+  }
+}
+@media (max-width: 1000px) {
+  body {
+    padding: 0px 140px;
+    transition: all 0.3s ease-in-out;
+  }
+  .Ids {
+    padding: 15px 15px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 0px 120px;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    padding: 0px 100px;
+  }
+  #profile {
+    padding-top: 80px;
+  }
+  #profile img {
+    width: 280px;
+    transition: all 0.3s ease-in-out;
+  }
+  #aboutContainer {
+    padding-top: 110px;
+    transition: all 0.3s ease-in-out;
+  }
+  #experience {
+    padding-top: 110px;
+  }
+  #projects {
+    padding-top: 110px;
+  }
+  .projectCard {
+    padding: 25px 50px;
+  }
+  .projectCard img {
+    width: 300px;
+    height: 350px;
+    border-radius: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0px 80px;
+  }
+  #profile {
+    padding-top: 60px;
+  }
+  #aboutContainer {
+    padding-top: 90px;
+  }
+  #experience {
+    padding-top: 90px;
+  }
+  #projects {
+    padding-top: 90px;
+  }
+  #smNav h1 {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .icon {
+    padding-top: 26px;
+    height: 15px;
+    width: 21px;
+  }
+  .icon.open span:first-child {
+    transform: rotate(45deg) translate(4px, 5px);
+  }
+  .icon.open span:last-child {
+    transform: rotate(-45deg) translate(4px, -5px);
+  }
+  #profile img {
+    width: 250px;
+    transition: all 0.3s ease-in-out;
+  }
+  .Ids {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0px 60px;
+  }
+  #profile {
+    padding-top: 60px;
+    gap: 0px;
+  }
+  #aboutContainer {
+    padding-top: 70px;
+  }
+  #experience {
+    padding-top: 70px;
+  }
+  #projects {
+    padding-top: 70px;
+  }
+  #profile img {
+    width: 220px;
+    transition: all 0.3s ease-in-out;
+  }
+  .projectCard {
+    padding: 20px 40px;
+  }
+  .projectCard img {
+    width: 270px;
+    height: 320px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  .projectCard h2 {
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 0px 60px;
+  }
+  #profile img {
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+  }
+  .pName h1 {
+    font-weight: bolder;
+    font-size: 2.25rem;
+  }
+  .pName h3 {
+    font-weight: bold;
+    color: #494a49;
+    font-size: 1.2rem;
+  }
+  .aboutHeader h1 {
+    font-weight: bolder;
+    font-size: 2.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  #experience h1 {
+    font-weight: bolder;
+    font-size: 2.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .experienceCard {
+    padding: 0 20px;
+  }
+  #contact h1 {
+    font-weight: bolder;
+    font-size: 2.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .projectCard {
+    padding: 20px 37px;
+  }
+  .projectCard img {
+    width: 240px;
+    height: 280px;
+    border-radius: 13px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    padding: 0px 40px;
+  }
+  #profile img {
+    width: 180px;
+    transition: all 0.3s ease-in-out;
+  }
+  .btnContainer {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .projectCard {
+    padding: 17px 34px;
+  }
+  .projectCard img {
+    width: 200px;
+    height: 240px;
+    border-radius: 11px;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .btn button {
+    margin-bottom: 5px;
+  }
+  .projectCard h2 {
+    font-size: 1.05rem;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 350px) {
+  body {
+    padding: 0px 20px;
+  }
+  #profile img {
+    width: 180px;
+    transition: all 0.3s ease-in-out;
+  }
+  .pName h1 {
+    font-weight: bolder;
+    font-size: 2.1rem;
+  }
+  .pName h3 {
+    font-weight: bold;
+    color: #494a49;
+    font-size: 1.1rem;
+  }
+  .projectCard {
+    padding: 14px 25px;
+  }
+  .projectCard img {
+    width: 170px;
+    height: 210px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+}
