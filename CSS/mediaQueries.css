@@ -1,14 +1,14 @@
 @media screen and (max-width: 1510px) {
   body {
-    padding: 0px 260px;
-    padding-top: 70px;
+    padding: 0px 0px;
+    padding-top: 0px;
     transition: all 0.3s ease-in-out;
   }
   #navBar {
     padding: 0 80px;
   }
   #navBar h1 {
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     transition: all 0.3s ease-in-out;
   }
   #navBar a {
@@ -20,7 +20,7 @@
     transition: all 0.3s ease-in-out;
   }
   #profile {
-    gap: 60px;
+    gap: 220px;
     transition: all 0.3s ease-in-out;
   }
   #experienceCard {
@@ -44,42 +44,27 @@
   }
   #smNav {
     display: flex;
+    padding: 0 100px;
   }
   #profile {
     flex-flow: column nowrap;
-    padding-top: 80px;
+    padding-top: 70px;
+    gap: 100px;
   }
   #profile img {
     margin: auto;
     width: 300px;
   }
 }
-@media (max-width: 1042px) {
-  .Ids {
-    padding: 9px 9px;
-    gap: 0px;
-  }
-}
-@media (max-width: 1000px) {
-  body {
-    padding: 0px 140px;
-    transition: all 0.3s ease-in-out;
-  }
-  .Ids {
-    padding: 15px 15px;
-    gap: 10px;
-  }
-}
-
-@media (max-width: 900px) {
-  body {
-    padding: 0px 120px;
-  }
-}
 
 @media (max-width: 800px) {
-  body {
-    padding: 0px 100px;
+  #smNav {
+    display: flex;
+    padding: 0 70px;
+    transition: all ease 0.5s;
+  }
+  .menu-list {
+    margin-left: 70px;
   }
   #profile {
     padding-top: 80px;
@@ -110,8 +95,8 @@
 }
 
 @media (max-width: 700px) {
-  body {
-    padding: 0px 80px;
+  .menu-list {
+    margin-left: 60px;
   }
   #profile {
     padding-top: 60px;
@@ -124,21 +109,6 @@
   }
   #projects {
     padding-top: 90px;
-  }
-  #smNav h1 {
-    cursor: pointer;
-    font-size: 1.5rem;
-  }
-  .icon {
-    padding-top: 26px;
-    height: 15px;
-    width: 21px;
-  }
-  .icon.open span:first-child {
-    transform: rotate(45deg) translate(4px, 5px);
-  }
-  .icon.open span:last-child {
-    transform: rotate(-45deg) translate(4px, -5px);
   }
   #profile img {
     width: 250px;
@@ -153,8 +123,13 @@
 }
 
 @media (max-width: 600px) {
-  body {
-    padding: 0px 60px;
+  .menu-list {
+    margin-left: 35px;
+  }
+  #smNav {
+    display: flex;
+    padding: 0 40px;
+    transition: all ease 0.5s;
   }
   #profile {
     padding-top: 60px;
@@ -189,8 +164,13 @@
 }
 
 @media (max-width: 500px) {
-  body {
-    padding: 0px 60px;
+  .menu-list {
+    margin-left: 15px;
+  }
+  #smNav {
+    display: flex;
+    padding: 0 20px;
+    transition: all ease 0.5s;
   }
   #profile img {
     width: 200px;
@@ -235,8 +215,13 @@
 }
 
 @media (max-width: 400px) {
-  body {
-    padding: 0px 40px;
+  .menu-list {
+    margin-left:5px;
+  }
+  #smNav {
+    display: flex;
+    padding: 0 5px;
+    transition: all ease 0.5s;
   }
   #profile img {
     width: 180px;
@@ -269,8 +254,8 @@
 }
 
 @media (max-width: 350px) {
-  body {
-    padding: 0px 20px;
+  .menu-list {
+    margin-left:0px;
   }
   #profile img {
     width: 180px;

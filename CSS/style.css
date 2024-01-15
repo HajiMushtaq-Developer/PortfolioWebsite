@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 body {
-  padding: 0px 200px;
-  padding-top: 80px;
+  padding: 0px 0px;
+  padding-top: 0px;
   font-family: "Poppins", sans-serif;
   position: relative;
+  max-width: 1894px;
+  min-width: 320px;
 }
 
 html {
@@ -38,28 +40,44 @@ html {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0 140px;
+  padding: 0 80px;
 }
 #navBar h1 {
   cursor: pointer;
   font-weight: lighter;
   font-size: 2rem;
 }
-#navBar h3 {
-  margin: 0 10px;
-  padding: 0;
+#navBar ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
 }
-#navBar a {
+#navBar li a {
   text-decoration: none;
   color: black;
   padding: 0 2px;
   transition: 0.3s;
   font-weight: lighter;
   font-size: 1.5rem;
+  position: relative;
+  padding-bottom: 5px;
+  gap: 20px;
 }
-#navBar a:hover {
+#navBar li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #00cc66;
+  transition: all ease 0.5s;
+}
+#navBar li a:hover::after {
+  width: 100%;
+}
+#navBar li a:hover {
   color: #00cc66;
-  transition: all 0.3s ease-in-out;
 }
 
 /* ---Mobile Navigation--- */
@@ -97,7 +115,8 @@ html {
   border-radius: 12px;
   width: fit-content;
   max-height: 0;
-  padding-left: 0px;
+  padding: 0 10px;
+  margin-left: 95px;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
 }
@@ -140,12 +159,12 @@ html {
 #profile {
   display: flex;
   flex-flow: row nowrap;
-  height: 65vh;
+  /* height: 100vh; */
   margin: auto;
   justify-content: center;
   align-items: center;
-  padding-top: 150px;
-  gap: 100px;
+  padding-top: 110px;
+  gap: 300px;
 }
 #profile img {
   width: 370px;
